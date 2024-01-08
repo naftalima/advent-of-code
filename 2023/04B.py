@@ -1,4 +1,3 @@
-# card_instances = {'game number':instances}
 card_instances = {}
 
 count = 0
