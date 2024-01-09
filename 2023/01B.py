@@ -22,7 +22,7 @@ process_line_digits = lambda lines: (
 tupla_to_int = lambda digts: int(digts[0])*10 + int(digts[1])
 
 calibration_digits = []
-with open("calibration-doc.txt") as file:
+with open("puzzle-input/calibration-doc.txt") as file:
   for line in file:
     line = line.strip()
     numbers = re.findall(pattern, line, overlapped=True)

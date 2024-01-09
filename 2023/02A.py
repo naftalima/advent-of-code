@@ -6,7 +6,7 @@ def is_hand_valid(hand: list):
     return True
 
 valid_games = 0
-with open("input2.txt") as file:
+with open("puzzle-input/cards.txt") as file:
     for line in file:
         game, sets = line.split(':')
         game_number = int(game.split()[1])

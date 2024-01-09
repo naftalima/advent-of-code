@@ -28,7 +28,7 @@ matrix = []
 
 m = 0
 
-with open("engine-schematic.txt") as file:
+with open("puzzle-input/engine-schematic.txt") as file:
   for line in file:
     line = line.strip()
     row = list(line)
